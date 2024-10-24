@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milad's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">MT</div>
+            <!-- <div class="logo-text">Milad's Portfolio</div> -->
+        </a>
+        <nav>
+            <ul id="menu">
+
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#genai"> Gen AI Projects</a>
+                </li>
+                <li>
+                    <a href="#dataeng">Data Engineering Projects</a>
+                </li>
+                <li>
+                    <a href="#ds">Data Science Projects</a>
+                </li>
+                <li>
+                    <a href="#visualization">Dashboards</a>
+                </li>
+                <li>
+                    <a href="./blog.html"> Blog</a>
+                </li>
+                <li>
+                    <a href="mailto:milad.tajvidi@gmail.com" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10"/>
+				</svg>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hi I'm</small> Milad Tajvidi
+                    </h1>
+                    <p>
+                        Data scientist in Vancouver who likes exploring and building things!
+                        <span>I'm interested in sports and Esports; anything that gets my adrenaline pumping!</span>
+                    </p>
+                    <div class="call-to-action">
+                        <a href="./DE_Milad_CV.pdf" class="button black">
+							View Resume
+						</a>
+                        <a href="mailto:mail.tajvidi@gmail.com" class="button white">
+							Contact Me
+						</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/miladtajvidi?tab=repositories">
+                            <img src="./imgs/github.png" alt="GitHub" width="48" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/miladtajvidi/">
+                            <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="./imgs/hero.png" alt="Milad Tajvidi" width="100%" />
+            </div>
+        </section>
+        <section class="logos container">
+            <div class="marquee">
+                <div class="track">
+                    <img src="./imgs/aws.png" alt="HTML" width="128" />
+                    <img src="./imgs/python.png" alt="CSS" width="128" />
+                    <img src="./imgs/pandas2.png" alt="JS" width="128" />
+                    <img src="./imgs/numpy2.png" alt="JS" width="128" />
+                    <img src="./imgs/scikit-learn2.png" alt="JS" width="128" />
+                    <img src="./imgs/r.png" alt="JS" width="128" />
+                    <img src="./imgs/sql2.png" alt="JS" width="128" />
+                    <img src="./imgs/spark2.png" alt="JS" width="128" />
+                    <img src="./imgs/powerbi.png" alt="JS" width="128" />
+                    <img src="./imgs/tableau.png" alt="JS" width="128" />
+                    <img src="./imgs/torch2.png" alt="JS" width="128" />
+                    <img src="./imgs/tensorflow2.png" alt="JS" width="128" />
+                    <img src="./imgs/airflow.png" alt="JS" width="128" />
+
+                </div>
+            </div>
+        </section>
+
+
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About Me</small> Skills and Certifications
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>AWS</h3>
+                    <ul>
+                        <li><img src="./imgs/aws_cloud_prac.png" alt="JS" width="128" /></li>
+                        <li><img src="./imgs/aws_dev.png" alt="JS" width="128" /></li>
+                        <li><img src="./imgs/aws_ml.png" alt="JS" width="128" /></li>
+                        <li><img src="./imgs/aws_solution.png" alt="JS" width="128" /></li>
+                        <li><img src="./imgs/aws_dataeng.png" alt="JS" width="128" /></li>
+
+                    </ul>
+                    <h3>Microsoft</h3>
+                    <ul>
+                        <li><img src="./imgs/ms_powerbi.png" alt="JS" width="128" /></li>
+
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Passionate Data Engineer with a strong background in building and enhancing scalable data pipelines, statistical methods and extended background in data science toolkit. Seeking a mid-senior position to contribute my expertise, enhance data-driven storytelling,
+                        and shape the future of entertainment through cutting-edge data solutions.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="genai" class="work-experience container">
+            <h2>
+                <small>Gen AI</small> Projects
+            </h2>
+            <div class="jobs">
+                <article>
+                    <a href="https://github.com/miladtajvidi/Diffusion-Models-from-scratch/tree/main/codes/first%20paper">
+                        <figure>
+                            <div>
+                                <img src="./imgs/diffusion.png" alt="Diffusion Models from Scratch" width="100%" />
+                                <figcaption>
+                                    Diffusion Models from Scratch
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Diffusion Models from Scratch</h3>
+                    <div>Gen AI Coding Group(Vancouver)</div>
+                    <p>Worked on diffusion models inspired by thermodynamic equilibrium principles and denoising probabilistic diffusion models (DDPMs). Explored their applications for generating high-quality images by leveraging pytorch</p>
+                </article>
+                <article>
+                    <a href="https://github.com/miladtajvidi/AutoEncoders">
+                        <figure>
+                            <div>
+                                <img src="./imgs/vae.png" alt="Variational Autoencoders" width="100%" />
+                                <figcaption>
+                                    Variational Autoencoders
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Variational Autoencoders</h3>
+                    <div>Gen AI Coding Group(Vancouver)</div>
+                    <p>Implemented autoencoders from simple to stacked, image denoisers & VAEs using pytorch and Tensorflow </p>
+                </article>
+                <article>
+                    <a href="https://github.com/miladtajvidi/RAG-from-scratch">
+                        <figure>
+                            <div>
+                                <img src="./imgs/RAG.png" alt="RAG from Scratch" width="100%" />
+                                <figcaption>
+                                    RAG from Scratch
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>RAG from Scratch</h3>
+                    <div>Personal Project</div>
+                    <p> Experimented with and implemented RAG-Fusion, multi-query, step-back, HyDE, indexing & CRAG using Langchain</p>
+                </article>
+
+                <article>
+                    <a href="https://github.com/miladtajvidi/Monet-style-paintings-kaggle">
+                        <figure>
+                            <div>
+                                <img src="./imgs/gan.jpeg" alt="GANs" width="100%" />
+                                <figcaption>
+                                    Generative Adversarial Networks
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Generative Adversarial Networks</h3>
+                    <div>MSc Course Project</div>
+                    <p> Developed and implemented CycleGANs and standard GANs for image-to-image translation tasks and data augmentation, leveraging TensorFlow.</p>
+                </article>
+
+            </div>
+        </section>
+
+        <section id="dataeng" class="work-experience container">
+            <h2>
+                <small>Data Engineering</small> Projects
+            </h2>
+            <div class="jobs">
+                <article>
+                    <a href="https://github.com/miladtajvidi/Real-time-streaming-pipeline">
+                        <figure>
+                            <div>
+                                <img src="./imgs/DE1.png" alt="Real-time Streaming Pipeline" width="100%" />
+                                <figcaption>
+                                    Real-time Streaming Pipeline
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Real-time Streaming Pipeline</h3>
+                    <div>Personal Project</div>
+                    <p>End to end streaming pipieline with sockets, Spark, OpenAI, Kafka and Elasticsearch</p>
+                </article>
+                <article>
+                    <a href="https://github.com/miladtajvidi/Data-Pipeline-for-Ingesting-API-Data-into-an-AWS-Data-Lake">
+                        <figure>
+                            <div>
+                                <img src="./imgs/de2.png" alt="Data-Pipeline-for-Ingesting-API-Data-into-an-AWS-Data-Lake" width="100%" />
+                                <figcaption>
+                                    Data-Pipeline-for-Ingesting-API-Data-into-an-AWS-Data-Lake
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Data-Pipeline-for-Ingesting-API-Data-into-an-AWS-Data-Lake</h3>
+                    <div>Personal Project</div>
+                    <p>Designing and implementing a data pipeline that regularly ingests data from a public API into an AWS data lake. The data pipeline will ensure that the data is consistently updated and available for querying using AWS Athena. The project
+                        will showcase the use of various AWS services such as S3, Glue, and Athena, along with API integration and data pipeline design. </p>
+                </article>
+                <article>
+                    <a href="https://github.com/miladtajvidi/Azure-AI-Doc_Intelligence">
+                        <figure>
+                            <div>
+                                <img src="./imgs/azuredoc.png" alt=" Azure Solution Accelerator for Document Intelligence" width=" 100% " />
+                                <figcaption>
+                                    Azure Solution Accelerator for Document Intelligence
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3> Azure Solution Accelerator for Document Intelligence</h3>
+                    <div>Personal Project</div>
+                    <p> Developed a solution using Azure AI Document Intelligence to automate PDF form processing. Implemented data extraction, storage in Azure Cosmos DB, and visualization with Power BI, enhancing operational efficiency and reducing costs.
+                    </p>
+                </article>
+
+
+
+            </div>
+        </section>
+
+
+        <section id="ds" class="work-experience container">
+            <h2>
+                <small>Data Science</small> Projects
+            </h2>
+            <div class="jobs ">
+                <article>
+                    <a href="https://github.com/miladtajvidi/League-of-Legends">
+                        <figure>
+                            <div>
+                                <img src="./imgs/lol.png " alt="Leauge of Legends: How to Win " width="100% " />
+                                <figcaption>
+                                    Leauge of Legends: How to Win
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Leauge of Legends: How to Win</h3>
+                    <div>MSc Project</div>
+                    <p>Conducted a comprehensive analysis of competitive League of Legends matches to identify winning strategies and champion synergies. Utilized machine learning techniques, including predictive modeling with a random forest classifier,
+                        achieving a significant prediction accuracy over baseline.</p>
+                </article>
+                <article>
+                    <a href="https://github.com/miladtajvidi/NLP-Disaster-Tweets-Kaggle">
+                        <figure>
+                            <div>
+                                <img src="./imgs/nlp.png " alt="Disaster Tweets NLP " width="100% " />
+                                <figcaption>
+                                    Disaster Tweets NLP
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Disaster Tweets NLP</h3>
+                    <div>MSc Project</div>
+                    <p>Built a NLP model to differentiate between disaster-related and non-disaster tweets using TensorFlow and Keras, achieving high accuracy. Employed DistilBERT for efficient learning and enhanced the model with feature engineering and
+                        hyperparameter tuning </p>
+                </article>
+                <article>
+                    <a href="https://github.com/miladtajvidi/Unsupervised-Clustering-Kaggle">
+                        <figure>
+                            <div>
+                                <img src="./imgs/clustering.png " alt="Unsupervised Clustering width=" 100% " />
+                                <figcaption>
+                                    Unsupervised Clustering
+                                </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <h3>Unsupervised Clustering</h3>
+                    <div>MSc Project</div>
+                    <p> Executed an unsupervised clustering project predicting data row clusters without predefined labels, leveraging techniques like PCA, K-Means, and Gaussian Mixture Models. Optimized cluster determination through the Elbow method and
+                        achieved significant Rand Index improvement.</p>
+                </article>
+
+
+
+            </div>
+        </section>
+
+        <section id="visualization"  class="work-experience container">
+            <h2>
+                <small>Dashboards and Visualization</small> Projects
+            </h2>
+            <div class="jobs ">
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/tableau_dash.png " alt="Tableau Dashboard Project " width="100% " />
+                            <figcaption>
+                                Tableau Dashboard Project
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>Tableau Dashboard Project</h3>
+                    <div>Personal Project</div>
+                    <p>detail to be added</p>
+                </article>
+                <article>
+                    <figure>
+                        <div>
+                            <img src="./imgs/powerbi_dash.png " alt="PowerBI Dashboard Project " width="100% " />
+                            <figcaption>
+                                PowerBI Dashboard Project
+                            </figcaption>
+                        </div>
+                    </figure>
+                    <h3>PowerBI Dashboard Project</h3>
+                    <div>Pwersonal Project</div>
+                    <p>detail to be added</p>
+                </article>
+
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+    </main>
+    
+
+</body>
+
+</html>
